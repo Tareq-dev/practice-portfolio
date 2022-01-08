@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Design */
+.navbar {
+  display: flex;
+  margin-left: 450px;
+}
+
+.navbar ul {
+  display: flex;
+}
+nav > ul {
+  display: flex;
+}
+nav > ul > li:hover > ul {
+  display: block;
+  position: absolute;
+  margin: 0;
+}
+nav .dropdown-menu {
+  display: none;
+  background-color: lightyellow;
+}
+nav .dropdown-menu li {
+  margin-left: 30px;
+}
+.navbar ul li {
+  margin-right: 48px;
+  margin-top: 25px;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.navbar ul li a:hover {
+  background-color: orangered;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+.contact {
+  color: white;
+  border: 1px solid gray;
+  background-color: orangered;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0px 5px 10px rgba(0.5);
+}
+
+/* 1st section  */
+.intro-content {
+  margin: 35px;
+  display: flex;
+}
+.half-width-text {
+  margin-top: 75px;
+  padding: 20px;
+  width: 50%;
+}
+.bg-img-1 {
+  background-image: url(./images/1.jpg);
+}
+.half-width img {
+  width: 70%;
+  height: 80%;
+}
+.half-width-text h1,
+h3,
+p,
+button {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.half-width-text p {
+  font-size: 20px;
+  margin-left: 15px;
+}
+.intro-name {
+  color: orangered;
+}
+h1,
+h3 {
+  margin-left: 20px;
+}
+p {
+  text-align: justify;
+}
+button {
+  background-color: orangered;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid orangered;
+  border-radius: 3px;
+  box-shadow: 5px 5px 10px #888888;
+}
+.services {
+  background-image: url(./images/pngwing.com(4).png);
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+  margin: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.services-box {
+  margin-top: 15px;
+  width: 30%;
+}
+
+.services-box h1,
+h2,
+p {
+  margin-left: 10px;
+}
+.services-box p {
+  font-size: 20px;
+}
+.services-card {
+  display: flex;
+}
+.card {
+  border: 1px solid gray;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: -40px;
+  width: 170px;
+  height: 250px;
+  background: rgba(96, 158, 241, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  border: 1px solid rgba(96, 158, 241, 0.16);
+}
+.card img {
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+}
+.card h4 {
+  text-align: center;
+  font-weight: bold;
+}
+.card p {
+  text-align: justify;
+  color: gray;
+  padding: 5px;
+  margin-left: 10px;
+}
+.card a {
+  background-color: white;
+  text-decoration: none;
+  color: blue;
+  padding: 5px;
+  margin-left: 35px;
+  border-radius: 10px;
+  border: 1px solid rgba(96, 158, 241, 0.16);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.client {
+  margin: 55px;
+}
+.client h1 {
+  margin-top: 25px;
+}
+.client span {
+  color: orangered;
+}
+.client-work {
+  margin-top: 35px;
+  margin-left: 170px;
+}
+.client-work img {
+  margin: 10px;
+  width: 25%;
+  height: 250px;
+  border: 2px solid orangered;
+  border-radius: 5px;
+  box-shadow: 5px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.radio {
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.19);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+border: 1px solid rgba(255, 255, 255, 0.33);
+  margin-top: 20px;
+  margin-left: 350px;
+  height: 500px;
+  width: 50%;
+}
+
+.form-section {
+  background-color: #6dd0f0;
+  padding: 10px;
+}
