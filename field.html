@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Field</title>
+     <link rel="stylesheet" href="style.css">
+     <style>
+          body {
+               margin: 10px;
+               background-color:green
+          }
+          .field{
+               padding: 50px;
+               border: 2px solid rgb(160, 212, 15);
+          }
+          .field img{
+               margin-top: 120px;
+               margin-left: 1050px;
+               height: 300px;
+          }
+          .field:hover .bat{
+          transform: rotate(70deg);
+          transform-origin:top left;
+          }
+          .bat{
+               transition: transform 0.2s ease-in;
+          }
+          .ball{
+               height: 50px;
+               width: 50px;
+               background-color:white ;
+               border-radius:25px;
+               top:-65px;
+               left: 920px;
+               position: relative;
+               transition:transform 1s ease-out 0.2s;
+          }
+          .field:hover .ball{
+         transform: translate(-1000px, -300px);
+          }
+     </style>
+</head>
+<body>
+     <nav class="navbar">
+          <ul>
+               <li><a href="/">Home</a></li>
+               <li><a href="">About us</a></li>
+              <li><a href="">Services
+                   <ul class="dropdown-menu">
+                        <li><a href="visibility.html">Visibily</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                   </ul>
+              </a></li>
+              <li><a class="contact" href="">Contact Us</a></li>
+          </ul>
+     </nav>
+     <br><br>
+     <div class="field">
+          <img class="bat" src="./images/bat.png" alt="bat">
+          <div class="ball"></div>
+     </div>
+
+</body>
+</html>

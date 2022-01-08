@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>visibily</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/c338abf115.js" crossorigin="anonymous"></script>
+     <style>
+         
+          section{
+               margin: 50px
+          }
+          section h1{
+               text-align: center;
+          }
+               .box {
+                   height:100px;
+                   width:100px; 
+                   border:1px solid black;
+               }
+               #box-1{
+                    background-color:green;
+               }
+               #box-2{
+                    background-color:blue;
+               }
+               #box-3{
+                    background-color:red;
+               }
+               #box-4{
+                    background-color:yellow;
+               }
+               .mega-box{
+                    width:500px;
+                    height: 400px;
+                    border: 5px solid red;
+                    overflow: scroll;
+                    overflow-x: hidden;
+               }
+               .container, .box-container{
+                    height: 120px;
+                    width: 120px;
+                    background-color:rgb(255, 230, 4);
+                    border:5px solid blue;
+               }
+               .box-container{
+                    background-color:rgb(205, 4, 255);
+                    transform:scale(0.5) rotate(45deg);
+               }
+               .box-transition{
+                   height: 120px; 
+                   width: 120px;
+                   border:5px solid black;
+                   background-color:red;
+                   transition: width 5s, height 5s ;
+               }
+               .box-transition:hover{
+                   height: 500px; 
+                   width: 500px;
+               }
+
+     </style>
+</head>
+<body>
+     <nav class="navbar">
+          <ul>
+               <li><a href="/">Home</a></li>
+               <li><a href="">About us</a></li>
+              <li><a href="">Services
+                   <ul class="dropdown-menu">
+                    <li><a href="visibility.html">Visibily</a></li>
+                    <li><a href="field.html">Field</a></li>
+                    <li><a href="animation.html">Animation</a></li>
+                        <li><a href="">link-4</a></li>
+                   </ul>
+              </a></li>
+              <li><a class="contact" href="">Contact Us</a></li>
+          </ul>
+     </nav>
+     <section>
+          <h1>Visibily</h1>
+          <div class="box" id="box-1"></div>
+          <div class="box" id="box-2"></div>
+          <div class="box" id="box-3"></div>
+          <div class="box" id="box-4"></div>
+     </section>
+     <section>
+          <h1>Overflow</h1>
+          <div class="mega-box">
+<p>Honeyed uncouth steel bidding yet these monastic since to was vaunted. Sad a moths smile cheer his though did earthly a. Waste things himnot and sore to, known a and as by caught power memory he of. Of dote her and him degree he and formed. Drugged scorching venerable nine of. From pride his could however sad in but. Nine ye kiss his them. Done flow or said wassailers be mote ways by the. Childe of suits nor vulgar peace, and feeble and is third however passion passed. Uncouth favour native with gathered, from scarce and befell whateer did noontide, hellas him wrong was his had a all haply. The name scape he saw. Passed long to his chill beyond. Fondly were harold in plain. In cell mother will and seraphs suits were mother way, not girls yet upon or feel are or. Caught these carnal seemed concubines drowsy was run. In and land venerable he of of adieu the. Old to nor his glee. Wins basked objects alas though in the did satiety one. To this scene heralds labyrinth a had her a before, low by and like sighed him. From deemed mote is it. Dear longdeserted his for was and by amiss, sore far have of loved him girls in where, the longdeserted he there the, had done worse break bacchanals was gild, of suits formed by a ever mammon had. Lyres been flaunting to ofttimes feeble grief, weary harold drowsy strange he. But to ne they not passed delphis none, from into to of that say nor then like later, thee sight of not sad feel feel. Another shades chill his there of ah pride. But yet ah at near den whateer, mammon with parasites cared honeyed shamed her had haply. Nor or only perchance grace, known one heart it the, gild revellers would within his blast. The so to mine from and bade. Far riot say saw her the and his. Knew few waste they him pride was he. Aught sadness perchance his of not bower mine, than of finds almost vaunted mood isle, kiss youth honeyed amiss labyrinth his her at could. And him was had he. In at fathers in isle once of. The loved not he he would blast and than. From he me weary clay, though not breast could not, nor and his would alas high blast ah be he. Shell he massy call a lines, scorching and  himnot feud worse, albions hour charms in might his her neer grace wrong, might and long to to was he, resolved heralds but  superstition another, will haply his whilome been like, dwell have given another her with which pollution. Change mammon and low sun are, what scorching power which eros however vexed yet they, left these bacchanals to counsel pangs vast, such earthly wight he had though deadly festal with nor. But pangs disporting concubines departed come, to of flee sad he in, a formed womans that of childe seemed his dear.</p>
+          </div>
+     </section>
+     <section>
+
+<h1>fontawesome</h1>
+
+<br>
+<br>
+<h1><i class="fas fa-cloud-sun"></i>I am a fontawesome!</h1>
+<br>
+<br>
+<p><a href=""><i class="fab fa-facebook-messenger"></i>Tareq</a></p>
+     </section>
+
+     <section>
+          <h1>Transformation</h1>
+          <div class="container">
+          <div class="box-container"><h4>box-1</h4></div>
+          </div>
+          <div class="container">
+          <div class="box-container"><h4>box-2</h4></div>
+          </div>
+          <div class="container">
+          <div class="box-container"><h4>box-3</h4></div>
+          </div>
+          <div class="container">
+          <div class="box-container"><h4>box-4</h4></div>
+          </div>
+          <div class="container">
+          <div class="box-container"><h4>box-5</h4></div>
+          </div>
+     </section>
+     <section>
+          <h1>Transitions</h1>
+          <div class="box-transition">
+               <h2>Transition</h2>
+          </div>
+     </section>
+     <section>
+
+     </section>
+</body>
+</html>
