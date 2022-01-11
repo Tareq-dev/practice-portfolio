@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Album</title>
+     <link rel="stylesheet" href="style.css">
+     <style>
+          .album{
+         display:flex;
+         flex-wrap: wrap;
+         margin-top: 25px;
+         margin-left: 124px;
+          }
+          .photo-frame{
+               margin:5px;
+               border: 3px solid orange;
+               border-radius:10px;
+               width:300px;
+               height:250px;
+               position: relative;
+               overflow: hidden;
+               box-shadow: 20px 22px 11px -15px rgba(0,0,0,0.27);
+               -webkit-box-shadow: 20px 22px 11px -15px rgba(0,0,0,0.27);
+               -moz-box-shadow: 20px 22px 11px -15px rgba(0,0,0,0.27);
+          }
+          .photo img{
+               border-radius:10px;
+               width:300px;
+               height:250px;
+          }
+          .photo-details{
+               display:none;
+               position: absolute;
+               width:300px;
+               height:250px;
+               top:0;
+               border-radius:10px;
+          }
+          .photo-frame:hover .photo-details{
+               display: block;
+               background-color:rgba(144, 238, 144, 0.432);
+               color:white;
+          }
+     .photo-frame:hover .photo{
+               transform: scale(1.6);
+               transition: transform 2s ease-in-out;
+     }
+          .photo-details h2{
+             background-color:black;
+             margin:3px;
+             text-align:center;
+          }
+          .photo-details p{
+             text-align:justify;
+             width:95%
+          }
+     </style>
+</head>
+<body>
+     <nav class="navbar">
+          <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">About us</a></li>
+              <li><a href="">Services
+                   <ul class="dropdown-menu">
+                        <li><a href="visibility.html">Visibily</a></li>
+                        <li><a href="field.html">Field</a></li>
+                        <li><a href="animation.html">Animation</a></li>
+                        <li><a href="calender.html">Calender</a></li>
+                        <li><a href="responsive.html">Responsive</a></li>
+                        <li><a href="album.html">Album</a></li>
+                   </ul>
+              </a></li>
+              <li><a class="contact" href="">Contact Us</a></li>
+          </ul>
+     </nav>
+     <section>
+          <h1></h1>
+          <div class="album">
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird1.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird2.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird3.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird4.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird5.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird6.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird7.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird8.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird9.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird10.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird11.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+               <div class="photo-frame">
+               <div class="photo">
+                    <img src="./images/bird12.jpg" alt="">
+               </div>
+               <div class="photo-details">
+                    <h2>I am Photo Album</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt laboriosam doloremque ipsam dolores quos eligendi alias quasi asperiores quibusdam amet!</p>
+               </div>
+               </div>
+          </div>
+     </section>
+</body>
+</html>
